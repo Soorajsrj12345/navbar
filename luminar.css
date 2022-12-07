@@ -46,3 +46,19 @@ background-color: #5e068a !important;
 .top p{
    margin-bottom: 0;
 }
+.all h1{
+    color: #5e068a;
+    font-size: 2rem !important;
+}
+.all h5{
+    color:#5e068a ;
+    font-weight: 300;
+}
+.all button{
+   border-radius: 2rem;
+   border: none;
+    color: white;
+    background-color: #5e068a;
+    height: 3rem;
+    width: 25%;
+}
