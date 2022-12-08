@@ -106,7 +106,8 @@ span{
 .this button{
     padding: 16px 27px;
     font-weight: 600;
-    margin-top: 21px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 36rem;
     border-radius: 50px;
     border: 2px solid #5e068a;
