@@ -65,20 +65,28 @@ background-color: #5e068a !important;
     width: 25%;
 }
  .courses{
-    color: #5e068a;
-    height: 50px;
-    width: 50%;
+    
+    width: 100%;
     display: flex;
-   
-   
-    margin-left: 35rem;
-    font-size: x-large !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.courses img{
+    width:100%;
+ 
 }
 span{
     color: #9e6ab9;
-    font-weight: 100;
-     margin-left: 1rem;
+   
+   
 }
+.first{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
 
 .first:hover{
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75)!important ;
@@ -92,10 +100,7 @@ span{
     width: 100%;
 
 } */
-.course img{
-    width:100%;
- 
-}
+
 .card h5{
     color: #5e068a;
 }
@@ -103,12 +108,16 @@ span{
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75)!important ;
     
 }
+.this{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
 .this button{
     padding: 16px 27px;
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 36rem;
     border-radius: 50px;
     border: 2px solid #5e068a;
     color: #5e068a;
@@ -118,7 +127,7 @@ span{
   color: white !important ;
   background-color: #5e068a !important;
 }
- .col-4 a{
+ .card a{
     background-color: #5e068a !important;
     border:1px solid #5e068a;
 }
